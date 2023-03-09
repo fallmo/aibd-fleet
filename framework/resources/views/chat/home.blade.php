@@ -5,7 +5,7 @@
 @section('content')
     <div class="row" id="chat-body">
         <div class="col-md-12">
-            <div class="card card-info">
+            <div class="card card-dark">
                 <div class="card-header with-border">
                   <h3 class="card-title">Pick a user to chat with</h3>
                 

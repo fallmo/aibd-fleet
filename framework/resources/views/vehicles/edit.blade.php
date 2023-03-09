@@ -394,7 +394,7 @@
           <div class="tab-pane " id="acq-tab">
             <div class="row card-body">
               <div class="col-md-12">
-                <div class="card card-success">
+                <div class="card card-dark">
                   <div class="card-header">
                     <h3 class="card-title">@lang('fleet.acquisition') @lang('fleet.add')</h3>
                   </div>
@@ -427,7 +427,7 @@
             </div>
             <div class="row card-body">
               <div class="col-md-12">
-                <div class="card card-info">
+                <div class="card card-dark">
                   <div class="card-header">
                     <h3 class="card-title">@lang('fleet.acquisition') :<strong>@if($vehicle->make_id){{
                         $vehicle->maker->make }}@endif @if($vehicle->model_id){{ $vehicle->vehiclemodel->model }}@endif

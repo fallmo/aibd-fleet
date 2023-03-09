@@ -157,7 +157,7 @@ $dk=array_keys($dates);
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <div class="card card-info">
+            <div class="card card-dark">
               <div class="card-header">
                 <h5> @lang('fleet.income') - @lang('fleet.expense') </h5>
               </div>
@@ -167,7 +167,7 @@ $dk=array_keys($dates);
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card card-info">
+            <div class="card card-dark">
               <div class="card-header">
                 <h5> @lang('fleet.vehicle') @lang('fleet.expenses') </h5>
               </div>

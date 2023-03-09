@@ -92,7 +92,7 @@
       </ul>
     </div>
     @endif
-    <div class="card card-success">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.addVehicle')</h3>
       </div>

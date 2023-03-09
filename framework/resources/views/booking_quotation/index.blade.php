@@ -17,7 +17,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header with-border">
         <h3 class="card-title"> @lang('fleet.manageBookingQuotations') &nbsp;
           @can('BookingQuotations add')<a href="{{route('booking-quotation.create')}}" class="btn btn-success"

@@ -23,7 +23,7 @@
       </ul>
     </div>
     @endif
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.manage_customers')
         &nbsp; @can('Customer add')<a href="{{route('customers.create')}}" class="btn btn-success" title="@lang('fleet.add_new')"><i class="fa fa-plus"></i></a>@endcan

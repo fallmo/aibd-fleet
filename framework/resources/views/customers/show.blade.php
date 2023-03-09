@@ -17,7 +17,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header with-border">
         <h3 class="card-title w-100 d-flex justify-content-between align-items-center"> <span>@lang('fleet.driver')
             @lang('fleet.details')</span>
@@ -46,7 +46,7 @@
 </div>
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header with-border">
         <h3 class="card-title"> @lang('fleet.driver') @lang('fleet.bookings') &nbsp;
         </h3>

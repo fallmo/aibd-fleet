@@ -72,7 +72,7 @@
   <div class="col-md-12">
     {!! Form::open(['route' => 'service-item.store','method'=>'post']) !!}
     {!! Form::hidden('user_id',Auth::user()->id)!!}
-    <div class="card card-success">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">
           @lang('fleet.create_service_item')

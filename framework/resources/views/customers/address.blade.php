@@ -20,7 +20,7 @@
 <div class="row">
   @foreach($bookings as $booking)
     <div class="col-md-4">
-      <div class="card card-info card-outline">
+      <div class="card card-dark card-outline">
         <div class="card-body height">
           {!! nl2br(e($booking->address)) !!}
         </div>

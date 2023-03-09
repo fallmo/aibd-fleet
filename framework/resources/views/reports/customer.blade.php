@@ -16,7 +16,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.customerReport')
         </h3>
@@ -45,7 +45,7 @@
 
 <div class="row">
   <div class="col-md-6">
-    <div class="card card-info box1">
+    <div class="card card-dark box1">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.monthlyReport')
         </h3>
@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card card-info box1">
+    <div class="card card-dark box1">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.topCustomers')
         </h3>
@@ -90,7 +90,7 @@
 
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.yearlyReport')
         </h3>

@@ -18,7 +18,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.manageVehicles') &nbsp; @can('Vehicles add')<a href="{{ route('vehicles.create')}}" class="btn btn-success" title="@lang('fleet.addNew')"><i class="fa fa-plus"></i></a>@endcan
           {{-- @can('Vehicles import')<button data-toggle="modal" data-target="#import" class="btn btn-warning">@lang('fleet.import')</button>@endcan --}}

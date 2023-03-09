@@ -35,7 +35,7 @@
       </ul>
     </div>
     @endif
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('menu.drivers') &nbsp;
           @can('Drivers add') <a href="{{ route('drivers.create') }}" class="btn btn-success"

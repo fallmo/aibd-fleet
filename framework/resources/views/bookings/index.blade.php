@@ -16,7 +16,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header with-border">
         <h3 class="card-title"> @lang('fleet.manage_bookings') &nbsp;
           @can('Bookings add')<a href="{{route('bookings.create')}}" class="btn btn-success"
@@ -174,7 +174,7 @@
 <div class="modal fade" id="receiptModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="card card-info">
+      <div class="card card-dark">
         <div class="modal-header">
           <h3 class="modal-title">@lang('fleet.add_payment')</h3>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span

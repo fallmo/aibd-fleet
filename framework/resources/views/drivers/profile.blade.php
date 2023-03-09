@@ -19,7 +19,7 @@
 <div class="row">
   <div class="col-md-3">
   <!-- Profile Image -->
-    <div class="card card-info card-outline">
+    <div class="card card-dark card-outline">
       <div class="card-body box-profile">
         <div class="text-center">
           @if($data->getMeta('driver_image') != null)
@@ -45,7 +45,7 @@
       </div>
     </div>
     <!-- About Me Box -->
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
       <h3 class="card-title">@lang('fleet.about_me')</h3>
       </div>

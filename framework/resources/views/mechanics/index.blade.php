@@ -24,7 +24,7 @@
       </ul>
     </div>
     @endif
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">
         @lang('fleet.mechanics')

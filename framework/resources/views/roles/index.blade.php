@@ -13,7 +13,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.roles') &nbsp;
         <a href="{{ route('roles.create')}}" class="btn btn-success" title="@lang('fleet.addNew')"><i class="fa fa-plus"></i></a></h3>

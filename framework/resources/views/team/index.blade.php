@@ -13,7 +13,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-info">
+    <div class="card card-dark">
       <div class="card-header">
         <h3 class="card-title">@lang('fleet.manage_team') &nbsp;
         @can('Team add')<a href="{{ route('team.create')}}" class="btn btn-success">@lang('fleet.addMember')</a>@endcan</h3>

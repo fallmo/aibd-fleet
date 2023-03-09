@@ -22,7 +22,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-12">
-    <div class="card card-success">
+    <div class="card card-dark">
       <div class="card-header with-border">
         <h3 class="card-title">@lang('fleet.addDriver')</h3>
       </div>
