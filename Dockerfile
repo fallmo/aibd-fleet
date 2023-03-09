@@ -17,4 +17,6 @@ CMD symfony server:start
 
 USER 1001
 
+ENV HOME=/app
+
 EXPOSE 8000
