@@ -36,14 +36,16 @@
     <p class="paragraph" style="text-align: center;"><?php echo e(trans('installer_messages.welcome.message')); ?></p>
        <form method="post" action="<?php echo e(url('installed')); ?>" id="env-form">
         <?php echo csrf_field(); ?>
-
-        <div class="form-group">
+        <input type="hidden" value="33ebb66b-dcd3-4c9a-b6d9-8014c058f482" name="purchase_code" class="form-control" required>
+<!-- 
+            <div class="form-group">
             <label class="col-sm-2 control-label">Purchase Code:</label>
 
             <div class="col-sm-10">
                 <input type="text" name="purchase_code" class="form-control" required>
             </div>
-        </div>
+        </div> 
+-->
 
         <div class="form-group">
             <label class="col-sm-2 control-label">Hostname</label>
