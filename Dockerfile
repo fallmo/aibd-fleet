@@ -11,9 +11,9 @@ COPY . .
 
 RUN cd framework && symfony composer update && symfony composer dump-autoload -o
 
-RUN chmod -R a=rwX /app 
+RUN chmod -R a=rwX /app && chmod +x ./entrypoint.sh
 
-CMD symfony server:start
+CMD ./entrypoint.sh
 
 USER 1001
 

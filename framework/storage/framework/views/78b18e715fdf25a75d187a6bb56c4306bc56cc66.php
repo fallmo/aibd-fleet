@@ -38,4 +38,4 @@
 </body>
 <?php echo $__env->yieldContent('scripts'); ?>
 </html>
-<?php /**PATH D:\xampp\htdocs\simab\fleet\framework\resources\views/layouts/master.blade.php ENDPATH**/ ?>
+<?php /**PATH /home/mo/Documents/fleet/fleet/framework/resources/views/layouts/master.blade.php ENDPATH**/ ?>
